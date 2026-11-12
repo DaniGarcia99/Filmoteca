@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Iniciar sesión | Filmoteca</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Filmoteca</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="/">Inicio</a>
+        <a href="/contacto">Contacto</a>
+        <a class="nav-login" href="/login" aria-current="page">Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido" class="page-form">
+    <div class="wrap form-layout">
+      <div class="panel">
+        <h1>Iniciar sesión</h1>
+        <form data-simulado data-exito="Inicio de sesión simulado. En la próxima entrega este paso comprobará tus datos y te llevará a tu listado de copias.">
+          <div class="field">
+            <label for="usuario">Nombre de usuario</label>
+            <input id="usuario" name="usuario" type="text" autocomplete="username" required>
+          </div>
+          <div class="field">
+            <label for="clave">Contraseña</label>
+            <input id="clave" name="clave" type="password" autocomplete="current-password" required>
+          </div>
+          <button class="btn" type="submit">Entrar</button>
+          <p class="status" role="status" data-estado hidden></p>
+        </form>
+      </div>
+      <aside class="aside">
+        <h2>Aún es un prototipo</h2>
+        <p>En esta entrega el botón <strong>Entrar</strong> solo simula el proceso. La comprobación real de usuario y contraseña llegará en la siguiente fase.</p>
+        <p>¿Tienes alguna duda? <a href="/contacto">Escríbenos</a> o <a href="/">vuelve al inicio</a>.</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Filmoteca &ndash; Prototipo de la Entrega 1 (Diseño de Interfaces Web)</p>
+      <nav aria-label="Pie de página">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/login">Iniciar sesión</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="/js/forms.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Filmoteca | Tu colección de películas, en orden</title>
+  <meta name="description" content="Filmoteca te permite consultar tus copias de películas, su formato y su estado de conservación desde un solo sitio.">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Filmoteca</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="/" aria-current="page">Inicio</a>
+        <a href="/contacto">Contacto</a>
+        <a class="nav-login" href="/login">Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo-portada">
+      <div class="wrap">
+        <div>
+          <h1 id="titulo-portada">Tu colección de películas, en orden y a mano</h1>
+          <p class="lead">Filmoteca reúne las copias de películas que tienes en casa o en digital. Consulta de cada una su formato y su estado de conservación, sin hojas de cálculo ni listas sueltas.</p>
+          <div class="actions">
+            <a class="btn" href="/login">Iniciar sesión</a>
+            <a class="btn btn-secondary" href="/contacto">Escríbenos</a>
+          </div>
+        </div>
+        <div class="shelf" aria-hidden="true">
+          <div class="spine brick" style="--h:250px">Dune: Parte Dos</div>
+          <div class="spine mustard" style="--h:290px">Oppenheimer</div>
+          <div class="spine forest" style="--h:230px">Pobres criaturas</div>
+          <div class="spine cobalt" style="--h:275px">Anatomía de una caída</div>
+          <div class="spine plum" style="--h:240px">La sociedad de la nieve</div>
+          <div class="spine slate" style="--h:210px">Past Lives</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-funciones">
+      <div class="wrap">
+        <h2 id="titulo-funciones">Qué puedes hacer con tu cuenta</h2>
+        <div class="features">
+          <div class="feature">
+            <h3>Ver tus copias</h3>
+            <p>Al iniciar sesión verás solo las copias que son tuyas, ordenadas en un listado claro.</p>
+          </div>
+          <div class="feature">
+            <h3>Conocer su estado</h3>
+            <p>Comprueba si una copia está en buen estado, dañada o perdida antes de ponerla o prestarla.</p>
+          </div>
+          <div class="feature">
+            <h3>Consultar el detalle</h3>
+            <p>Abre cualquier película para ver su director, año y género, y en qué formato la tienes: DVD, Blu-Ray, VHS o digital.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-recientes">
+      <div class="wrap">
+        <h2 id="titulo-recientes">Películas recientes</h2>
+        <div class="table-scroll" tabindex="0" role="region" aria-labelledby="titulo-recientes">
+          <table>
+            <caption>Ejemplos de películas que puedes registrar en tu colección</caption>
+            <thead>
+              <tr><th scope="col">Título</th><th scope="col">Director</th><th scope="col">Año</th><th scope="col">Género</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Dune: Parte Dos</th><td>Denis Villeneuve</td><td>2024</td><td>Ciencia ficción</td></tr>
+              <tr><th scope="row">La sociedad de la nieve</th><td>J. A. Bayona</td><td>2023</td><td>Drama</td></tr>
+              <tr><th scope="row">Oppenheimer</th><td>Christopher Nolan</td><td>2023</td><td>Drama histórico</td></tr>
+              <tr><th scope="row">Pobres criaturas</th><td>Yorgos Lanthimos</td><td>2023</td><td>Comedia</td></tr>
+              <tr><th scope="row">Anatomía de una caída</th><td>Justine Triet</td><td>2023</td><td>Drama</td></tr>
+              <tr><th scope="row">Past Lives</th><td>Celine Song</td><td>2023</td><td>Romance</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Este listado es una muestra. Tus propias copias aparecerán cuando <a href="/login">inicies sesión</a>.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Filmoteca &ndash; Prototipo de la Entrega 1 (Diseño de Interfaces Web)</p>
+      <nav aria-label="Pie de página">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/login">Iniciar sesión</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  </body>
+</html>
